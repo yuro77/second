@@ -1,0 +1,125 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.mainbox{
+    position:relative;
+    left:120px;
+    top: 80px;
+    width: 1050px;
+    height:550px;
+    overflow: hidden; 
+    display: flex;
+}
+.mainbox.box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:300px;
+    height:550px;
+    overflow: hidden;
+    border-right: 1px solid darkgrey;
+    box-shadow:0 0 25px darkgray;
+   transition: all 0.5s;
+   z-index: 1;
+}
+.img{
+    width:940px;
+    height:550px ;
+    z-index: 1;
+}
+.mainbox:hover.box{width: 120px;}
+
+.mainbox.box:hover {width: 940px;}
+
+.header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+.inputone{
+    width: 180px;
+    height:30px;
+    border-radius: 25px;
+    border: none;
+   outline: none;
+   padding-left: 10px;
+   
+
+}
+.inputtwo{
+    width: 180px;
+    height:30px;
+    border-radius: 25px;
+    border: none;
+   outline: none;
+   padding-left: 10px;
+   font-size: medium;
+
+}
+.button{
+    width:100px;
+    height: 50px;
+    border-radius: 25px;
+    z-index: 2;
+    border:none;
+    outline: none;
+    font-size: 24px;
+}
+.inputboxone{
+    position: absolute;
+    left: 400px;
+    top:80px;
+    width:500px;
+    height: 80px;
+    color: transparent;
+    z-index: 2;
+    border: none;
+}
+.inputboxthree{
+    position: absolute;
+    left: 400px;
+    top:160px;
+    width: 280px;
+    height: 80px;
+    color: transparent;
+    z-index: 2;
+    border: none;
+}
+.inputboxtwo{
+    position: absolute;
+    left: 400px;
+    top:240px;
+    width: 280px;
+    height: 100px;
+    color: transparent;
+    z-index: 2;
+    border: none;
+}
+
+.buttonbox{
+    position: absolute;
+    left: 518px;
+    top:340px;
+    width: 200px;
+    height: 100px;
+    color: transparent;
+    z-index: 2;
+    
+}
+.picturebox{
+    position: absolute;
+    top:75px;
+    left:120px;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    z-index: 2;
+}
+.font{
+    
+    color: white;
+    font-size: 24px;
+}
