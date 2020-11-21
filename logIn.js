@@ -19,7 +19,7 @@ else
   }
 var BaseURL = 'http://thungghuan.xyz:3000';
 function get(){
-  getRequest.open("GET",BaseURL,'/profilepicture');
+  getRequest.open("GET",BaseURL+'/BBTDescription');
   getRequest.send();
   getRequest.onreadystatechange() = function(){
     if (getRequest.readyState== 4 && postRequest.status == 200){
@@ -34,7 +34,7 @@ function get(){
 }
 function post()
   {
-    postRequest.open("POST",BaseURL,'/login');
+    postRequest.open("POST",BaseURL+'/login');
     postRequest.send(JSON.stringify(postData));
     postRequest.onreadystatechange() = function(){
       if (postRequest.readyState== 4 && postRequest.status == 200){
